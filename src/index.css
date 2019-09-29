@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.task {
+  width: 50%;
+  margin: 10px auto;
+  background: #eee;
+  padding: 2em;
+}
+.heading {
+  font-size: 2em;
+  font-weight: bold;
+}
+.taskForm {
+  margin-top: 1em;
+}
+.btn-align {
+  margin: 10px auto;
+}
+.table-visiblity {
+  display: none;
+}
+.title {
+  padding-right: 10px;
+}
+.padLeft {
+  padding-left: 1em;
+}
+.padBot {
+  padding-bottom: 1em;
+}
+.ohc-table {
+  width: 50%;
+  margin: 10px auto;
+}
+.marRight {
+  margin-right: 1em;
+}
+.editForm {
+  width: 50%;
+  background: #eee;
+  margin: 10px auto;
+  padding: 2em;
+}
+.update-btn {
+  margin-top: 15px;
+}
+/* FOR DEVICE WIDTH BETWEEN 320PX AND 359PX */
+@media only screen and (min-width:320px) and (max-width:359px) {
+  .task,.editForm,.ohc-table {
+    width: 95%;
+  }
+  .heading {
+    font-size: 1em;
+  }
+
+  .table tr th {
+    font-size: 0.8em;
+  }
+
+  .editmarBottom {
+    margin-bottom: 5px;
+  }
+}
+/* FOR DEVICE WIDTH BETWEEN 360PX AND 560PX */
+@media only screen and (min-width:360px) and (max-width:560px) {
+  .task,.editForm,.ohc-table {
+    width: 95%;
+  }
+  .heading {
+    font-size: 1.1em;
+  }
+  .table tr th {
+    font-size: 0.9em;
+  }
+  .editmarBottom {
+    margin-bottom: 5px;
+  }
+}
+
+/* FOR DEVICE WIDTH BETWEEN 560PX AND 767PX */
+@media only screen and (min-width:560px) and (max-width:767px) {
+  .task,.editForm,.ohc-table {
+    width: 95%;
+  }
+  .heading {
+    font-size: 1.1em;
+  }
+  .table tr th {
+    font-size: 0.9em;
+  }
+  .editmarBottom {
+    margin-bottom: 5px;
+  }
+}
+
+/* FOR DEVICE WIDTH 768PX  */
+@media only screen and (min-width: 768px) and (max-width:983px) {
+  .task,.editForm,.ohc-table {
+    width: 95%;
+  }
+  .heading {
+    font-size: 1.4em;
+  }
+  .table tr th {
+    font-size: 1em;
+  }
+  .editmarBottom {
+    margin-bottom: 5px;
+  }
+}
