@@ -18,19 +18,19 @@ class TaskCard extends Component {
         const todoEntries = this.props.entries
         const listItems = todoEntries.map(this.createTasks)
         return <div className="ohc-table">
-            <table className="table table-sm">
-        <thead className="thead-dark">
-        <tr>
-        <th>Department</th>
-        <th>OverHead Cost</th>
-        <th>Action</th>
-      </tr>
-        </thead>
-      <tbody>
-      {listItems}
-      </tbody>
-    </table>
-          </div>
+                    <table className="table table-sm">
+                        <thead className="thead-dark">
+                        <tr>
+                            <th>Department</th>
+                            <th>OverHead Cost</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            {listItems}
+                        </tbody>
+                    </table>
+                </div>
       }
 }
 export default TaskCard 
